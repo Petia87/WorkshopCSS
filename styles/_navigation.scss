@@ -1,0 +1,30 @@
+@import "variables";
+
+.navigation {
+    background-color: $color_dark;
+    
+    .navigation__logo,
+    .navigation__item {
+        color:$color_light;
+    }
+
+    .navigation__ {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        font-weight: 300;
+        .navigation__logo {
+            font-size: 30px;
+        }
+        .navigation__item {
+            padding: 10px;
+            text-decoration: none;
+            font-size: 1rem;
+        }
+
+        .navigation__item:hover {
+            border-bottom: 1px solid white;
+        }
+    }
+}
