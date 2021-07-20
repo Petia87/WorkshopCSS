@@ -1,5 +1,5 @@
 @import "variables";
-
+@import "mixin";
 .navigation {
     background-color: $color_dark;
     
@@ -12,19 +12,21 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 10px 20px;
-        font-weight: 300;
+        padding: 2rem 4rem;
+       
+
+
         .navigation__logo {
-            font-size: 30px;
+            font-size: 2rem;
         }
         .navigation__item {
-            padding: 10px;
+            padding: 2rem;
             text-decoration: none;
-            font-size: 1rem;
+            @include p;
         }
 
         .navigation__item:hover {
-            border-bottom: 1px solid white;
+            border-bottom: 1px solid $color_light;
         }
     }
 }

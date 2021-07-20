@@ -1,11 +1,12 @@
 @import "navigation";
 @import "show";
 @import "stat";
-@import"cliLangCloud";
-@import"footer";
-@import"variables";
-@import"cloud";
-@import"lang";
+@import "cliLangCloud";
+@import "footer";
+@import "variables";
+@import "cloud";
+@import "lang";
+@import "second";
 
 * {
     margin: 0;
@@ -50,9 +51,9 @@ ul,a {
     background-color: #fff;
     color: #333;
     border-radius: 10px;
-    box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
-    padding: 20px;
-    margin: 10px;
+    box-shadow: 0  3px 10px rgb(0 0 0 / 20%);
+    padding:0.5rem;
+    margin: 1rem;
 }
 
 @media (max-width: 750px) {

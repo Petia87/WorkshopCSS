@@ -13,12 +13,13 @@
         font-size: 1rem;
     }
 
-    .footer a,
-    .footer ul li a {
+     a,
+    ul li a {
         padding: 1.5rem;
         color: $color_light;
     }
-    .footer_container_center,.footer_container_right{
+    .footer_container_center,
+    .footer_container_right {
         color: $color_light;
     }
 }

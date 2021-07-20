@@ -29,7 +29,7 @@
     }
 
     .stats__colum__p {
-        font-size: 1.3rem;
+        @include p;
         color:$font_fdark;
        padding-top: 1.5rem;
     }

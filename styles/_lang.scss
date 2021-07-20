@@ -1,11 +1,20 @@
 @import"variables";
-
+@import "mixin";
 .flex_c {
-    display: flex;
-    flex-wrap: wrap;
+    @include flex_wrap;
+
+    
 }
 
 .languages__h2 {
-    font-size: 2rem;
+    @include p;
     padding: 2rem;
+}
+
+.logo{
+    transition: transform 0.5s;
+
+   &:hover{
+        transform: translateY(-10px);
+    }
 }

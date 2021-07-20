@@ -173,12 +173,13 @@
   padding: 3rem 5rem;
   font-size: 1rem;
 }
-.footer .footer a,
-.footer .footer ul li a {
+.footer a,
+.footer ul li a {
   padding: 1.5rem;
   color: white;
 }
-.footer .footer_container_center, .footer .footer_container_right {
+.footer .footer_container_center,
+.footer .footer_container_right {
   color: white;
 }
 

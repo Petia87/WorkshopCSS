@@ -1,25 +1,20 @@
 @import "variables";
 @import "mixin";
-.showcase {
-    height: 400px;
+.bodd{
+    background-color: chartreuse;
+}
+/*features*/
+.features {
     color: $color_light;
-    position: relative;
     background-color: $color_dark;
+    .features__container{
+        @include flex_wrap;
+    }
 }
 
-.showcase::before,
-.showcase::after {
-    content: "";
-    position: absolute;
-    height: 100px;
-    bottom: -70px;
-    right: 0;
-    left: 0;
-    background: $color_light;
-    transform: skewY(-3deg);
-    /*..................*/
-}
-/*Pe66666666*/
+
+
+/*Pe66666666
 .cli__card__h3 {
     background-color: $color_light;
     color: $color_full_dark;
@@ -31,7 +26,8 @@
 .showcase .grid {
     overflow: visible;
     grid-template-columns: 55% auto;
-    /*..................*/
+  
+
 }
 
 .stat__colum {
@@ -90,3 +86,4 @@
     padding: 3px;
     font-size: 0.8rem;
 }
+*/
