@@ -7,6 +7,8 @@
 @import "cloud";
 @import "lang";
 @import "second";
+@import"last";
+
 
 * {
     margin: 0;
@@ -68,7 +70,7 @@ ul,a {
        text-align: center;
     }
     .showcase, .showcase-form,.img, .cloud,.languages,.footer,.cli,.navigation{
-        width: 70%;
+        width: 100%;
     }
     .showcase, .grid,.showcase-text{
         padding-top: 5rem;   
