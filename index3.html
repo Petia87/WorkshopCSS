@@ -19,7 +19,7 @@
 
 <body>
     <div class="navigation">
-        <div class="container">
+        <div class="container ">
             <div class="navigation__">
                 <div class="navigation__logo">
                     Loruki
@@ -27,30 +27,33 @@
 
                 <div class="navigation__items">
                     <a href="index.html" class="navigation__item">Home</a>
-                    <a href="#" class="navigation__item">Features</a>
-                    <a href="#" class="navigation__item">Docs</a>
+                    <a href="index2.html" class="navigation__item">Features</a>
+                    <a href="index3.html" class="navigation__item">Docs</a>
                 </div>
             </div>
         </div>
     </div>
     <!-- Doc -->
     <section class="docs">
-        <div class="container">
-            <div>
-                <h1 class="">Docs</h1>
+        <div class="container docs_flex">
+            <div class="docs__container">
+                <h2 class="">Docs</h2>
                 <p class="">
                     Learn how to work with the Loruki platform
                 </p>
             </div>
-            <img src="pics/doc.jpg" alt="">
+            <div class="docs__img ">
+                <img src="pics/doc.jpg" alt="">
+            </div>
+            
         </div>
     </section>
 
     <!-- main-doc -->
     <section class="main-doc">
 
-        <div class="container ">
-            <div class="card ">
+        <div class="container grid ">
+            <div class="card main-doc__left">
                 <h3 class="">Essentials</h3>
                 <nav>
                     <ul>
@@ -70,34 +73,34 @@
                     </ul>
                 </nav>
             </div>
-            <div class="card">
-                <h2>Introduction</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio illo facere perferendis laborum?
+            <div class="card  main-doc__right">
+                <h3 >Introduction</h3>
+                <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio illo facere perferendis laborum?
                     Similique recusandae incidunt eos dolorum aliquam ipsam unde perspiciatis laudantium totam quam
                     laborum velit, at maxime minus?</p>
 
-                <div class="">
+                <div class="box">
                     <span>i</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, animi?
                 </div>
 
                 <h3>Lorem, ipsum dolor.</h3>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima totam magni eius vitae velit id,
                     atque veritatis! At, vero porro.</p>
-                <button>Install CLI</button>
+                <button class="main-doc__button">Install CLI</button>
 
-                <h3>Requirements</h3>
-                <p>Windows 10, Mac OSX, Linux</p>
-                <p>Node.js v12 or higher</p>
+                <h3 class="main-doc__right_h3">Requirements</h3>
+                <p class="main-doc__right_p">Windows 10, Mac OSX, Linux</p>
+                <p class="main-doc__right_p">Node.js v12 or higher</p>
 
 
-                <h3>Install</h3>
-                <p>Mac (Homebrew)</p>
+                <h3 class="main-doc__right_h3">Install</h3>
+                <p class="main-doc__right_p">Mac (Homebrew)</p>
                 <p class="black">$ brew install loruki-cli</p>
-                <p>NPM</p>
+                <p class="main-doc__right_">NPM</p>
                 <p class="black">$ npm install loruki-cli</p>
-                <p>Yarn</p>
+                <p class="main-doc__right_">Yarn</p>
                 <p class="black">$ yarn install loruki-cli</p>
-                <pre><code>$ yarn install loruki-cli</code></pre>
+               
 
             </div>
         </div>
@@ -107,7 +110,7 @@
 
     <!-- Footer -->
     <footer class="footer">
-        <div class="footer_container">
+        <div class="footer_container grid">
             <div class="footer_container_left">
                 <h1>Loruki</h1>
                 <p>Copyright © 2020</p>
